@@ -10,8 +10,8 @@ class ViewCompilingController extends Controller {
 //        dd($pagename);
         $data = array();
 //        dd($data);
-        $section = config('pages.'.$pagename.'.section');
-        dd($pagename);
+        $sections = config('pages.'.$pagename.'.section');
+//        dd($sections);
         $data['sections'] = $sections;
 //        dd($data['sections']);
         return view('lyouts.'.config('pages.'.$pagename.'.lyouts'), $data);
