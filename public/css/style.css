@@ -1,19 +1,19 @@
 .full-page{
-/*        background:linear-gradient(
-                rgba(0,184,255,0.45),
-                rgba(0,184,255,0.45)
-        
-        )*/
-/*background:#5D666A;*/
-/*color:#ffffff;*/ 
+    /*        background:linear-gradient(
+                    rgba(0,184,255,0.45),
+                    rgba(0,184,255,0.45)
+            
+            )*/
+    /*background:#5D666A;*/
+    /*color:#ffffff;*/ 
 }
 .top_bar{
-/*    background:linear-gradient(
-                rgba(0,184,255,0.45),
-                rgba(0,184,255,0.45)
-        
-        )*/
-        /*background: #cccccc;*/
+    /*    background:linear-gradient(
+                    rgba(0,184,255,0.45),
+                    rgba(0,184,255,0.45)
+            
+            )*/
+    /*background: #cccccc;*/
 }
 .header-bottom
 {
@@ -44,5 +44,5 @@
 }
 .footer-copyright{
     background-color:#3F484B;
-     
+
 }

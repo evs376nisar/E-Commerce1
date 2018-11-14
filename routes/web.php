@@ -15,7 +15,7 @@
 //    return view('welcome');
 //});
 //Route::get('/', function () {
-//    return view('Home');
+//    return view('home');
 //});
 //Route::get('/', function () {
 //    return view('Registration');
@@ -23,5 +23,6 @@
 //Route::get('/','Home');
 //Route::get('/', 'home@index');
 //Route::get('/home', 'Registration@index');
-Route::get('/home', 'home@index');
-Route::get('/Registration', 'home@index2');
+Route::get('/', 'HomeController@index');
+Route::get('/home', 'HomeController@index');
+Route::get('/Registration', 'RegistrationController@index');
